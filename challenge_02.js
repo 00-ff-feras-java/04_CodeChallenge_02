@@ -16,4 +16,62 @@ Alter 13-17 // Cola
 
 /* Getränke-Challenge */
 
+const fName = prompt("Bitte Namen eingeben!");
+let alter = parseInt(prompt("Bitte nennen Sie ihr Alter!"));
+
+// alterZahl = parseFloat(alter);
+console.log("Name: " + fName);
+console.log("Alter: " + alter);
+console.log(typeof fName);
+console.log(typeof alter);
+
+
+
+baby = (alter <= 5);
+kid = (alter <= 6 && alter <=12);
+teen = (alter >= 13 && alter <= 17);
+
+// switch (alter) {
+//     case baby:
+
+//         console.log("Milch");
+        
+//         break;
+
+//     case kid:
+
+//         console.log("Saft");
+        
+//         break;
+
+//     case teen:
+
+//         console.log("Cola");
+        
+//         break;
+
+//     default:
+
+//     console.log("Adult! Scotch immedietly!");
+//         break;
+// }
+
+if (baby) {
+
+    console.log("Milch");
+}
+else if (kid) {
+
+console.log("Saft");
+}
+else if (teen){
+    console.log("Cola");
+
+    
+} else {
+    console.log("Adult! Scotch immedietly!");
+    
+}
+
+
 
